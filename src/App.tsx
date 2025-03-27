@@ -10,6 +10,7 @@ import Blogs from "./pages/Blogs";
 import BlogDetail from "./pages/BlogDetail";
 import Categories from "./pages/Categories";
 import CategoryBlogs from "./pages/CategoryBlogs";
+import Contact from "./pages/Contact";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ForgotPassword from "./pages/ForgotPassword";
@@ -31,6 +32,7 @@ const App = () => (
           <Route path="/blogs/:id" element={<BlogDetail />} />
           <Route path="/categories" element={<Categories />} />
           <Route path="/categories/:id" element={<CategoryBlogs />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
